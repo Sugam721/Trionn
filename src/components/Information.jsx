@@ -174,10 +174,10 @@ function Information() {
                     alt={client.name}
                   />
                 </div>
-                <p className="text-xl md:text-3xl mt-6 md:mt-8">
+                <p className="text-xl md:text-3xl mt-6 md:mt-8 text-black dark:text-white">
                   {client.name}
                 </p>
-                <p className="text-sm md:text-lg mt-1 md:mt-2 opacity-70">
+                <p className="text-sm md:text-lg mt-1 md:mt-2 opacity-70 text-black dark:text-white">
                   {client.role}
                 </p>
                 <button className="text-sm md:text-lg mt-6 md:mt-8 px-6 md:px-8 py-3 md:py-4 rounded-full bg-[#eb0000] text-white hover:bg-[#c00000] transition-colors">
